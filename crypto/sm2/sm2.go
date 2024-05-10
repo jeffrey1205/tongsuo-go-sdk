@@ -19,7 +19,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 // VerifyASN1 verifies ASN.1 encoded signature. Returns nil on success.

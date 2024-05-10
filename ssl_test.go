@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
-	"github.com/tongsuo-project/tongsuo-go-sdk/utils"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/utils"
 )
 
 var (
@@ -568,7 +568,7 @@ func LotsOfConns(t *testing.T, payload_size int64, loops, clients int,
 					}
 				}()
 				for i := 0; i < loops; i++ {
-					_, err := io.Copy(ioutil.Discard,
+					_, err := io.Copy(os.Discard,
 						io.LimitReader(conn, payload_size))
 					if err != nil {
 						t.Error("failed reading: ", err)

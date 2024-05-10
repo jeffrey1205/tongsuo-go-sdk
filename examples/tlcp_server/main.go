@@ -14,8 +14,8 @@ import (
 	"net"
 	"os"
 
-	ts "github.com/tongsuo-project/tongsuo-go-sdk"
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	ts "github.com/jeffrey1205/tongsuo-go-sdk"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 func handleConn(conn net.Conn) {

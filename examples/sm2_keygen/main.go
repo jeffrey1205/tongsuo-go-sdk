@@ -10,7 +10,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto/sm2"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto/sm2"
 )
 
 func main() {

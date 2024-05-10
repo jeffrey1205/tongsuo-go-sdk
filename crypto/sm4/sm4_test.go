@@ -12,7 +12,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 func doEncrypt(mode int, key, iv, plainText, cipherText []byte, t *testing.T) {

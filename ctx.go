@@ -27,7 +27,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 var (
@@ -327,6 +327,15 @@ func (s *CertificateStore) LoadCertificatesFromPEM(data []byte) error {
 		}
 	}
 	return nil
+}
+
+// SetCertificateStore set trust ca
+func (c *Ctx) SetCertificateStore(store *CertificateStore) {
+	runtime.LockOSThread()
+	defer runtime.UnlockOSThread()
+
+	store.ctx = c
+	C.SSL_CTX_set_cert_store(c.ctx, store.store)
 }
 
 // GetCertificateStore returns the context's certificate store that will be

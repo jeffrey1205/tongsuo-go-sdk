@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto/sm3"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto/sm3"
 )
 
 func main() {

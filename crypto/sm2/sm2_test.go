@@ -12,7 +12,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 var sm2_key1 = []byte(`-----BEGIN PRIVATE KEY-----

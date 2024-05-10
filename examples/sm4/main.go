@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto/sm4"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto/sm4"
 )
 
 func sm4CBCEncrypt() {
