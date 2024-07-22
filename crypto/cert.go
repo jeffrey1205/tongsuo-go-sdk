@@ -42,6 +42,7 @@ const (
 	EVP_SHA256    EVP_MD = iota
 	EVP_SHA384    EVP_MD = iota
 	EVP_SHA512    EVP_MD = iota
+	EVP_SM3       EVP_MD = iota
 )
 
 // X509_Version represents a version on an x509 certificate.
@@ -420,6 +421,8 @@ func getDigestFunction(digest EVP_MD) (md *C.EVP_MD) {
 		md = C.X_EVP_sha384()
 	case EVP_SHA512:
 		md = C.X_EVP_sha512()
+	case EVP_SM3:
+		md = C.X_EVP_sm3()
 	}
 	return md
 }
