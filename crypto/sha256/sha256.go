@@ -26,7 +26,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 type SHA256 struct {

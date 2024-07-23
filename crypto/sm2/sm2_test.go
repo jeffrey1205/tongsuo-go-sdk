@@ -3,7 +3,7 @@
 // Licensed under the Apache License 2.0 (the "License").  You may not use
 // this file except in compliance with the License.  You can obtain a copy
 // in the file LICENSE in the source distribution or at
-// https://github.com/Tongsuo-Project/tongsuo-go-sdk/blob/main/LICENSE
+// https://github.com/jeffrey1205/tongsuo-go-sdk/blob/main/LICENSE
 
 package sm2
 
@@ -12,7 +12,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
 )
 
 var sm2_key1 = []byte(`-----BEGIN PRIVATE KEY-----

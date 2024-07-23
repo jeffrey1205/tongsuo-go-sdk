@@ -3,8 +3,9 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto"
-	"github.com/tongsuo-project/tongsuo-go-sdk/crypto/sm2"
+
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto"
+	"github.com/jeffrey1205/tongsuo-go-sdk/crypto/sm2"
 )
 
 var sm2_key1 = []byte(`-----BEGIN PRIVATE KEY-----
